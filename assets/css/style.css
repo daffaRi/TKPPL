@@ -449,7 +449,7 @@ Carousel
 # Sections General
 --------------------------------------------------------------*/
 section {
-	padding-top: 80px;
+	padding: 30px 0px;
 }
 
 .section-bg, .section-bg a, .section-bg h2 {
@@ -459,12 +459,11 @@ section {
 
 .section-title {
 	text-align: center;
-	padding-bottom: 30px;
 }
 
 .section-title h2 {
 	font-size: 32px;
-	font-weight: 300;
+	font-weight: bold;
 	margin-bottom: 20px;
 	padding-bottom: 0;
 	color: #555;
@@ -545,7 +544,7 @@ section {
 # Call To Action
 --------------------------------------------------------------*/
 .call-to-action {
-	background: linear-gradient(rgba(1, 41, 42, 0.5), rgba(7, 56, 57, 0.5)), url("../img/a.jpg") fixed center center;
+	background: linear-gradient(rgba(7, 56, 57, 0.5), rgba(172, 63, 52, 0.34)), url("../img/bg.png") fixed center center;
 	background-size: cover;
 	padding: 60px 0;
 }
